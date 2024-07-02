@@ -1,5 +1,13 @@
 # TiNA-II
-A Discord Bot
+A Discord Bot for mine
+
+---
+框架
+- main.py 主要运行文件
+- rss_feed.py 负责提供RSS源的刷新与发送
+- command_recognition.py 负责一些定制指令
+- bot_activity.py 提供在Discord上显示的状态
+---
 
 TiNA-II v1.01 稳定版 更新日志
 
