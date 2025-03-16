@@ -4,8 +4,8 @@ from lxml import html
 
 # 定义rss_urls和prev_entry_links为全局变量
 rss_urls = [
-    'http://hezhi.anitsuri.top:1200/bilibili/user/dynamic/103243330/useAvid=1',
-    'http://hezhi.anitsuri.top:1200/bilibili/user/dynamic/247871319'
+    'RSS_URL1',
+    'RSS_URL2'
 ]
 prev_entry_links = [''] * len(rss_urls)
 
@@ -30,7 +30,7 @@ async def refresh_and_forward():
                 continue
             if entry.link != prev_entry_links[i]:
                 prev_entry_links[i] = entry.link
-                channel = bot.get_channel(689289409547468802)  # 这里写入频道ID
+                channel = bot.get_channel(CHANNAL_ID)  # 这里写入频道ID
                 description_html = html.fromstring(entry.description)
 
                 # 替换 <br> 标签为换行符
