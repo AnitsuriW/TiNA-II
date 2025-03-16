@@ -3,7 +3,7 @@ from discord.ext import commands
 import asyncio
 import random
 
-token = 'MTI1NTY3NjY5NTYwNDg4NzY1NA.G2ZLZQ.Rej98w-ojfCz0QvHQ2wFbnX8xW8IRmq3q9KKTc'
+token = 'YOUR_BOT_TOKEN' # 这里输入你的Bot Token
 
 # 创建一个Bot对象，设置命令前缀为"!"，并指定intents
 intents = discord.Intents.default()

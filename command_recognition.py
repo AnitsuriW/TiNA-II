@@ -46,10 +46,10 @@ def init(bot):
         await bot.process_commands(message)
 
     # 当用户输入‘/ongekihdd'时，bot回复教程链接
-    @bot.hybrid_command()
-    async def ongekihdd(ctx):
-        """发送最新最热SDDT教程"""
-        await ctx.send("https://performai.notion.site/O-N-G-E-K-I-Bright-Memory-7264d5d8b3ce4920b94b422359c6b9d8")
+    # @bot.hybrid_command()
+    # async def ongekihdd(ctx):
+    #     """发送最新最热SDDT教程"""
+    #     await ctx.send("https://performai.notion.site/O-N-G-E-K-I-Bright-Memory-7264d5d8b3ce4920b94b422359c6b9d8")
 
 
     # 手动刷新RSS源指令
